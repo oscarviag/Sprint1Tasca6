@@ -27,12 +27,12 @@ public class GenericMethods {
 				
 	}
 	
-	public static <T> void f(List<T> llista){
+	public static <T> void f(T llista){
 		
-		for (T parametre: llista) {
-			System.out.println(parametre);
-		}
 		
+			System.out.println(llista);
+
 	}
+	
 
 }

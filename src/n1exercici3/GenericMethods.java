@@ -17,7 +17,7 @@ public class GenericMethods {
 		
 	}
 	
-	public static <T, U, V> void f(T entrada1, U entrada2){
+	public static <T, V> void f(T entrada1, T entrada2){
 		
 		V entrada3 = (V) new Date();
 		
